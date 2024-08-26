@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, rgba(136, 52, 66, 1) 64%, rgba(57, 49, 49, 1) 100%);
+    padding: 20px;
+    min-width: 30%;
+}
+
+#app {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Flipped', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    /* Transição suave para o efeito de hover */
+    margin-bottom: 1vh;
+}
+
+button:hover {
+    opacity: 0.7;
+    /* Reduz a opacidade para 70% ao passar o mouse */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos anteriores permanecem os mesmos */
+
+li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* NEW */
+button.update,
+button.delete {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button.update {
+    background-color: #ffc107;
+    color: white;
+}
+
+button.delete {
+    background-color: #dc3545;
+    color: white;
+}
