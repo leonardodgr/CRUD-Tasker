@@ -22,4 +22,4 @@ Um Task Manager simples desenvolvido com um sistema CRUD completo. Permite a cri
 
 ## Visualização
 
-Acesse: https://leonardodgr.github.io/CRUD-Tasker/
+- Acesse: https://leonardodgr.github.io/CRUD-Tasker/
