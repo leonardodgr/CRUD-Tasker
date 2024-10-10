@@ -20,19 +20,6 @@ Um Task Manager simples desenvolvido com um sistema CRUD completo. Permite a cri
 - Atualizar tarefas
 - Excluir tarefas
 
-## Instalação
+## Visualização
 
-Para instalar e executar o projeto localmente, siga os passos abaixo:
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/leonardodgr/CRUD-Tasker.git
-
-2. Navegue até o diretório do projeto:
-   cd CRUD-Tasker
-   
-4. Instale as dependências:
-   npm install
-
-5. Inicie o servidor:
-   [???]
+Acesse: https://leonardodgr.github.io/CRUD-Tasker/
